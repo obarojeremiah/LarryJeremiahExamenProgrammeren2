@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT movies (movie+)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT movie (id,title,genre)*>
+<!ATTLIST movie id CDATA #REQUIRED>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT id (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT title (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT genre (#PCDATA)>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE movies SYSTEM "Movies.dtd">
+<movies>
+    <movie>
+        <id>1</id>
+        <title>The sixth sence</title>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <id>2</id>
+        <title>The godfather</title>
+        <genre>action</genre>
+    </movie>
+    <movie>
+        <id>3</id>
+        <title>spiderman</title>
+        <genre>comedy</genre>
+    </movie>
+</movies>
